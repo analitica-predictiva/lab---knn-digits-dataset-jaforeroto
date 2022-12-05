@@ -1,9 +1,7 @@
 """
 Clasificación usando k-NN - Digits Dataset
 -----------------------------------------------------------------------------------------
-
 En este laboratio se construirá un clasificador usando k-NN para el dataset de digitos.
-
 """
 import matplotlib.pyplot as plt
 import numpy as np
@@ -54,7 +52,7 @@ def pregunta_02():
     )
 
     # Cree un clasificador con siete vecinos
-    knn = KNeighborsClassifier(n_neighbors = 7)
+    knn = KNeighborsClassifier(n_neighbors=7)
 
     # Entrene el clasificador
     knn.fit(X_train, y_train)
@@ -68,7 +66,7 @@ def pregunta_03():
     Complete el código presentado a continuación.
     """
 
-# Importe KNeighborsClassifier de sklearn.neighbors
+    # Importe KNeighborsClassifier de sklearn.neighbors
     from sklearn.neighbors import KNeighborsClassifier
 
     # Importe train_test_split de sklearn.model_selection
